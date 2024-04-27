@@ -1,17 +1,20 @@
-
 # NodeJS MongoDB CRUD template:
 this is basic backend envoirment for personal use in future project 
 
 ### production Packages :  
+
+
 express.js  https://expressjs.com/en/starter/installing.html  npm install express
 mongoose.js (object data mapper) https://www.npmjs.com/package/mongoose npm install mongoose
 dotenv      https://www.npmjs.com/package/dotenv npm install dotenv
 
 ### development Dep : 
+
 npm i -D nodemon https://www.npmjs.com/package/nodemon
 
 
 ## clone an install 
+
 1: clone the  project 
 2: >: cd projecct    
 3: update the .env file with your own data
@@ -20,6 +23,7 @@ npm i -D nodemon https://www.npmjs.com/package/nodemon
 4.b: pro: npm start
 
 ### How it created 
+
 1: init package, json npm init -y (entry point server.js) 
 2: installing packages  npm install express
 3: installing nodemon as dev pkg so we dont have to keeep restatring the server
@@ -35,10 +39,12 @@ npm i -D nodemon https://www.npmjs.com/package/nodemon
 ------------------------------------------
 
 ### How it works : 
+
 run the projet :$ npm start [script] npm start
 run the project for devlopment [script] npm run  dev
 
 ### How to Do it Again ?
+
 0 : init project
 1: installing packegs 
 2: create  all routes --> CRUD  CREATED √
